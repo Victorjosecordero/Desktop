@@ -3,22 +3,22 @@
       {
         "titulo": "El capitan Tormenta",
         "autor": "Emilio Salgari",
-        "imgLibro": "img/buddy.jpg"
+        "imgLibro": "img/el-capitan-tormenta.jpg"
       },
       {
         "titulo": "Cartago en llamas",
         "autor": "Emilio Salgari",
-        "imgLibro": "img/coco.jpg"
+        "imgLibro": "img/cartago-en-llamas.jpg"
       },
       {
         "titulo": "La Galatea",
         "autor": "Cervantes",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/lagalatea.jpg"
       },
       {
         "titulo": "Cinco semanas en globo",
         "autor": "Julio Verne",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/cinco-semanas-en-globo.jpg"
       },
       {
         "titulo": "Don Quijote de la Mancha con notas",
@@ -28,37 +28,37 @@
       {
         "titulo": "El Corazon delator",
         "autor": "Edgar Allan Poe",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/el-corazon-delator.jpg"
       },
       {
         "titulo": "El escarabajo de oro",
         "autor": "Edgar Allan Poe",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/el-escarabajo-de-oro.jpg"
       },
       {
         "titulo": "El Gato Negro",
         "autor": "Edgar Allan Poe",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/El-gato-negro.jpg"
       },
       {
         "titulo": "El Pozo y el Pendulo",
         "autor": "Edgar Allan Poe",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/El-pozo-y-el-pendulo.jpg"
       },
       {
         "titulo": "El Corazon delator",
         "autor": "Edgar Allan Poe",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/el-corazon-delator.jpg"
       },
       {
         "titulo": "El Capitan del Djuma",
         "autor": "Emilio Salgari",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/el capitan-del-dujma.jpg"
       },
       {
         "titulo": "El chancellor",
         "autor": "Julio Verne",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/el-chancellor.jpg"
       },
       {
         "titulo": "El Corazon de las Tinieblas",
@@ -68,12 +68,12 @@
       {
         "titulo": "El Corsario Negro",
         "autor": "Emilio Salgari",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/el-corsario.negro.jpg"
       },
       {
         "titulo": "El Eterno Adan",
         "autor": "Julio Verne",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/el-eterno-adan.jpg"
       },
       {
         "titulo": "El faro del fin del mundo",
