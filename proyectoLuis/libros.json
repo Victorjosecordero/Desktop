@@ -1,0 +1,105 @@
+{
+    "libros": [
+      {
+        "titulo": "El capitan Tormenta",
+        "autor": "Emilio Salgari",
+        "imgLibro": "img/buddy.jpg"
+      },
+      {
+        "titulo": "Cartago en llamas",
+        "autor": "Emilio Salgari",
+        "imgLibro": "img/coco.jpg"
+      },
+      {
+        "titulo": "La Galatea",
+        "autor": "Cervantes",
+        "imgLibro": "img/fernando.jpg"
+      },
+      {
+        "titulo": "Cinco semanas en globo",
+        "autor": "Julio Verne",
+        "imgLibro": "img/fernando.jpg"
+      },
+      {
+        "titulo": "Don Quijote de la Mancha con notas",
+        "autor": "Miguel de Cervantes Saavedra",
+        "imgLibro": "img/fernando.jpg"
+      },
+      {
+        "titulo": "El Corazon delator",
+        "autor": "Edgar Allan Poe",
+        "imgLibro": "img/fernando.jpg"
+      },
+      {
+        "titulo": "El escarabajo de oro",
+        "autor": "Edgar Allan Poe",
+        "imgLibro": "img/fernando.jpg"
+      },
+      {
+        "titulo": "El Gato Negro",
+        "autor": "Edgar Allan Poe",
+        "imgLibro": "img/fernando.jpg"
+      },
+      {
+        "titulo": "El Pozo y el Pendulo",
+        "autor": "Edgar Allan Poe",
+        "imgLibro": "img/fernando.jpg"
+      },
+      {
+        "titulo": "El Corazon delator",
+        "autor": "Edgar Allan Poe",
+        "imgLibro": "img/fernando.jpg"
+      },
+      {
+        "titulo": "El Capitan del Djuma",
+        "autor": "Emilio Salgari",
+        "imgLibro": "img/fernando.jpg"
+      },
+      {
+        "titulo": "El chancellor",
+        "autor": "Julio Verne",
+        "imgLibro": "img/fernando.jpg"
+      },
+      {
+        "titulo": "El Corazon de las Tinieblas",
+        "autor": "Joseph Conrad",
+        "imgLibro": "img/fernando.jpg"
+      },
+      {
+        "titulo": "El Corsario Negro",
+        "autor": "Emilio Salgari",
+        "imgLibro": "img/fernando.jpg"
+      },
+      {
+        "titulo": "El Eterno Adan",
+        "autor": "Julio Verne",
+        "imgLibro": "img/fernando.jpg"
+      },
+      {
+        "titulo": "El faro del fin del mundo",
+        "autor": "Julio Verne",
+        "imgLibro": "img/fernando.jpg"
+      },
+      {
+        "titulo": "El leon de damasco",
+        "autor": "Emilio Salgari",
+        "imgLibro": "img/fernando.jpg"
+      },
+      {
+        "titulo": "Isla Misteriosa",
+        "autor": "Julio Verne",
+        "imgLibro": "img/fernando.jpg"
+      },
+      {
+        "titulo": "Ivanhoe",
+        "autor": "Walter Scott",
+        "imgLibro": "img/fernando.jpg"
+      },
+      {
+        "titulo": "Lord Jim",
+        "autor": "Joseph Conrad",
+        "imgLibro": "img/fernando.jpg"
+      }
+    ]
+  }
+  

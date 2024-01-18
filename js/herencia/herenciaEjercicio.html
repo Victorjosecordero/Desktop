@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        //Crea la clase persona con los atributos nombre apellidos y dni.
+        //crea una subclase alumno que extiende de persona con los atributos edad especialidad(DAM o DAW),curso(1º,2º) y grupo(A,B)
+        //crea subclase profeson que extiende de persona con los atributos Estudios(ingenria insfor, empresariales) asignatura(bd,programacion),aniosExperencia,sueldo
+        //crea las 3 clases anteriores emsncionadas
+        //con sus respectivos imprimir datos
+        //impuestos si ganas menos de 1000 se le aplica unos impuestos de 2% si gana entre 1000 y 1700 se le aplica 10% mas de  1700 y menos de 2500 es 15% y mas de 2500 es 20%
+
+
+        class Persona{
+            constructor(nombre, apellidos, dni){
+                this.nombre=nombre;
+                this.apellidos=apellidos;
+                this.dni=dni;
+            }
+
+            imprimir(){
+                document.write(`Nombre: ${this.nombre}.<br>`)
+                document.write(`Apellidos: ${this.apellidos}.<br>`)
+                document.write(`DNI: ${this.dni}.<br>`)
+            }
+
+        }
+
+        class Alumno extends Persona{
+
+            constructor(nombre, apellidos, dni, especialidad, curso, grupo){
+                super(nombre, apellidos, dni)
+                this.especialidad=especialidad;
+                this.curso=curso;
+                this.grupo=grupo;
+            }
+
+            imprimir(){
+                super.imprimir();
+                document.write(`Especialidad: ${this.especialidad}.<br>`)
+                document.write(`Curso: ${this.curso}.<br>`)
+                document.write(`Grupo: ${this.grupo}.<br>`)
+            }
+        }
+
+        class Profesor extends Persona{
+
+            
+
+            constructor(nombre, apellidos, dni,estudios, asignaturaImparte, aniosExperencia, sueldoBase){
+                super(nombre, apellidos, dni,);
+                this.estudios=estudios;
+                this.asignaturaImparte=asignaturaImparte;
+                this.aniosExperencia=aniosExperencia;
+                this.sueldoBase=sueldoBase;
+                this.sueldoNeto=0;
+                this.impuestos=0;
+            }
+
+            imprimir(){
+                super.imprimir();
+                document.write(`Estudios: ${this.estudios}.<br>`)
+                document.write(`Asignatura que imparte: ${this.asignaturaImparte}.<br>`)
+                document.write(`Años de experencia: ${this.aniosExperencia}.<br>`)
+                document.write(`Sueldo base: ${this.sueldoBase}.<br>`)
+                document.write(`Sueldo neto(con impuestos): ${this.sueldoNetoProfe() - this.impuestosProfe()} <br>`)
+                document.write(`Impuestos aplicados: ${this.impuestosProfe()} <br>`)
+            }
+
+          
+            sueldoNetoProfe(){
+                if(this.aniosExperencia >= 3 && this.aniosExperencia <=5 ){
+                    this.sueldoNeto=this.sueldoBase + 50;
+                }else if(this.aniosExperencia > 5){
+                    this.sueldoNeto=this.sueldoBase + 80;
+                }else{
+                    this.sueldoNeto=this.sueldoBase;
+                }
+                return this.sueldoNeto;
+                
+            }
+
+            impuestosProfe(){
+                if(this.sueldoBase<1000){
+                    this.impuestos=this.sueldoNeto*0.02
+                    return this.impuestos
+
+                }else if(this.sueldoBase >=1000 && this.sueldoBase < 1700){
+                    this.impuestos=this.sueldoNeto*0.10
+                    return this.impuestos
+
+                }else if(this.sueldoBase >=1700 && this.sueldoBase <= 2500){
+                    this.impuestos=this.sueldoNeto*0.15
+                    return this.impuestos
+
+                }else if(this.sueldoBase >2500){
+                    this.impuestos=this.sueldoNeto*0.20
+                    return this.impuestos
+                }
+            }
+        }
+
+        persona1=new Persona("Pepe","Ruiz","49034111C");
+        persona1.imprimir();
+        document.write("<hr>");
+        document.write("<hr>");
+
+
+        alumno1 = new Alumno("Victor","Jose Peña","78453691G","DAW","1º","A")
+        alumno1.imprimir();
+        document.write("<hr>");
+        alumno2 = new Alumno("Ana","Ruiz Lopez","78219837N","DAM","2º","B")
+        alumno2.imprimir();
+        document.write("<hr>");
+        alumno3 = new Alumno("Antonio","Vilches Sodi","45658921O","DAW","2º","A")
+        alumno3.imprimir();
+        document.write("<hr>");
+        alumno4 = new Alumno("Alba","Ortega Mayo","1269735L","DAM","2º","A")
+        alumno4.imprimir();
+        document.write("<hr>");
+        document.write("<hr>");
+
+        profesor1=new Profesor("Jesus","Perez Perez","63251478K","Ingenieria Informatica","Despliegue Web",2,2000);
+        profesor1.sueldoNetoProfe();
+        profesor1.imprimir();
+        document.write("<hr>");
+        profesor2=new Profesor("Anais","Garcia Hidalgo","45127839R","Empresariales","Empresa",4,2300);
+        profesor2.sueldoNetoProfe();
+        profesor2.imprimir();
+        document.write("<hr>");
+        profesor3=new Profesor("Alvaro","Diaz Martin","58253696V","Ingenieria Informatica","Servidor PHP y JS",7,3000);
+        profesor3.sueldoNetoProfe();
+        profesor3.imprimir();
+        document.write("<hr>");
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

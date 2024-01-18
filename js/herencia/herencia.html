@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>herencia</h2>
+
+    <script type="text/javascript">
+
+        class Persona{
+
+            constructor(nombre, edad){
+                this.nombre=nombre;
+                this.edad=edad;
+            }
+            imprimir(){
+                document.write("<p>Nombre: "+ this.nombre+"</p><br>")
+                document.write("<p>Edad: "+ this.edad+"</p><br>")
+            }
+        }
+
+        class Empleado extends Persona{
+
+            constructor(nombre, sueldo){
+                this.nombre=nombre;
+                this.sueldo=sueldo;
+            }
+
+            imprimir(){
+                super.imprimir();
+                document.write("<p>Sueldo: "+ this.sueldo+"</p><br>")
+
+
+            }
+
+            pagarImpuestos(){
+                if(sueldo >1000){
+                    document.write("Empleado: "+ this.nombre +" debe pagar impuestos");
+                }else{
+                    document.write("Empleado: "+ this.nombre +"  NO paga pagar impuestos");
+
+                }
+            }
+        }
+
+    </script>
+</body>
+</html>
