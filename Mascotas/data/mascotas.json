@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "nombre": "Max",
+    "especie": "Perro",
+    "raza": "Labrador Retriever",
+    "pertenencia": "Juan Pérez",
+    "color": "Dorado",
+    "sexo": "Macho",
+    "edad": 3,
+    "img": "max.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Luna",
+    "especie": "Gato",
+    "raza": "Tabby",
+    "pertenencia": "Irene G. Ramos",
+    "color": "Blanco y gris",
+    "sexo": "Hembra",
+    "edad": 2,
+    "img": "luna.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Buddy",
+    "especie": "Conejo",
+    "raza": "Holandés enano",
+    "pertenencia": "Carlos Rodríguez",
+    "color": "Gris",
+    "sexo": "Macho",
+    "edad": 1,
+    "img": "buddy.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Coco",
+    "especie": "Pájaro",
+    "raza": "Canario",
+    "pertenencia": "Ana Martínez",
+    "color": "Amarillo",
+    "sexo": "Macho",
+    "edad": 1,
+    "img": "coco.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Mia",
+    "especie": "Hamster",
+    "raza": "Sirio",
+    "pertenencia": "Elena Sánchez",
+    "color": "Marrón",
+    "sexo": "Hembra",
+    "edad": 1,
+    "img": "mia.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Mango",
+    "especie": "Hurón",
+    "raza": "Común",
+    "pertenencia": "Felicia Gómez",
+    "color": "Marrón",
+    "sexo": "Hembra",
+    "edad": 2,
+    "img": "mango.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Fernando",
+    "especie": "Blob fish",
+    "raza": "Común",
+    "pertenencia": "Agustín Rinin",
+    "color": "rosa palo",
+    "sexo": "No definido",
+    "edad": 7,
+    "img": "fernando.jpg"
+  }  ,
+  {
+    "id": 8,
+    "nombre": "Capuccino",
+    "especie": "Oso pardo",
+    "raza": "No definido",
+    "pertenencia": "Dolores Fuerte Debarriga",
+    "color": "Pardo",
+    "sexo": "Macho",
+    "edad": 1,
+    "img": "capuccino.jpg"
+  }
+]

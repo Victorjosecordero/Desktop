@@ -23,7 +23,7 @@
       {
         "titulo": "Don Quijote de la Mancha con notas",
         "autor": "Miguel de Cervantes Saavedra",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/don-quijote.jpg"
       },
       {
         "titulo": "El Corazon delator",
@@ -53,7 +53,7 @@
       {
         "titulo": "El Capitan del Djuma",
         "autor": "Emilio Salgari",
-        "imgLibro": "img/el capitan-del-dujma.jpg"
+        "imgLibro": "img/el-capitan-del-dujma.jpg"
       },
       {
         "titulo": "El chancellor",
@@ -63,7 +63,7 @@
       {
         "titulo": "El Corazon de las Tinieblas",
         "autor": "Joseph Conrad",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/el-corazon-de-las-tinieblas.jpg"
       },
       {
         "titulo": "El Corsario Negro",
@@ -78,27 +78,27 @@
       {
         "titulo": "El faro del fin del mundo",
         "autor": "Julio Verne",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/el-faro-del-fin-del-mundo.jpg"
       },
       {
         "titulo": "El leon de damasco",
         "autor": "Emilio Salgari",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/leon-de-damasco.jpg"
       },
       {
         "titulo": "Isla Misteriosa",
         "autor": "Julio Verne",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/isla-misteriosa.jpg"
       },
       {
         "titulo": "Ivanhoe",
         "autor": "Walter Scott",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/ivanhoe.jpg"
       },
       {
         "titulo": "Lord Jim",
         "autor": "Joseph Conrad",
-        "imgLibro": "img/fernando.jpg"
+        "imgLibro": "img/lord-jim.jpg"
       }
     ]
   }
