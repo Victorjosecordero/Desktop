@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="ejemplo1"></p>
+    <p id="ejemplo2"></p>
+    <p id="ejemplo3"></p>
+    <p id="ejemplo4"></p>
+    <p id="ejemplo5"></p>
+    <p id="ejemplo6"></p>
+    <p id="ejemplo7"></p>
+    <p id="ejemplo8"></p>
+    <p id="ejemplo9"></p>
+    <p id="ejemplo10"></p>
+    <p id="ejemplo11"></p>
+    <p id="ejemplo12"></p>
+    <p id="ejemplo13"></p>
+    <p id="ejemplo14"></p>
+    <p id="ejemplo15"></p>
+    <p id="ejemplo16"></p>
+    <p id="ejemplo17"></p>
+    <p id="ejemplo18"></p>
+    <p id="ejemplo19"></p>
+    <p id="ejemplo20"></p>
+
+
+    <script type="text/javascript">
+
+        const frutas = new Map([
+            ["manzanas",50],
+            ["platanos",30],
+            ["naranjas",20]
+        ]);
+
+        document.getElementById("ejemplo1").innerHTML = frutas.get("naranjas");
+        document.getElementById("ejemplo2").innerHTML = frutas.get(50);
+        document.getElementById("ejemplo3").innerHTML = frutas.get("peras");
+
+
+        let txt ="";
+        frutas.forEach(function(valor, clave){
+            txt += clave + " = "+ valor + "<br>";
+        });
+
+        document.getElementById("ejemplo3").innerHTML = txt;
+
+
+        const peliculas = new Map();
+
+        peliculas.set("El padrino", 1960);
+        peliculas.set("Titanic", 2005);
+        peliculas.set("Gladiator", 2010);
+
+         txt ="";
+        peliculas.forEach(function(valor, clave){
+            txt += clave + " = "+ valor + "<br>";
+        });
+
+        document.getElementById("ejemplo4").innerHTML = txt;
+
+        document.getElementById("ejemplo5").innerHTML = peliculas.has("Titanic");
+        document.getElementById("ejemplo6").innerHTML = peliculas.has("Avatar");
+        document.getElementById("ejemplo7").innerHTML = peliculas.has(2010);
+
+
+        txt ="";
+       for(let x of peliculas.entries()){
+        txt += x + "<br>";
+       }
+
+        document.getElementById("ejemplo8").innerHTML = txt;
+
+        txt ="";
+        for(let x of peliculas.values()){
+        txt += x + "<br>";
+       }
+
+        document.getElementById("ejemplo9").innerHTML = txt;
+
+        txt ="";
+        for(let x of peliculas.keys()){
+        txt += x + "<br>";
+       }
+
+        document.getElementById("ejemplo10").innerHTML = txt;
+
+
+        txt="";
+        for(let [key, value] of peliculas){ 
+            txt +=(`${key} = ${value} <br>`)
+        }
+
+        document.getElementById("ejemplo11").innerHTML = txt;
+
+
+        const myArray =[
+            ["clave1","valor1"],
+            ["clave2","valor2"],
+            ["clave3","valor2"]
+        ];
+
+        const myMap = new Map(myArray);
+
+        document.getElementById("ejemplo12").innerHTML = myMap.get("clave2");
+
+        console.log(Array.from(myMap));
+
+        document.getElementById("ejemplo12").innerHTML = [...myMap];
+
+        document.getElementById("ejemplo12").innerHTML = [...myMap];
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

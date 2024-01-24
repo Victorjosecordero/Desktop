@@ -1,0 +1,83 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+body{
+    background-image: url("img/fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.alojamiento {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+}
+
+.imagen {
+    flex: 1;
+    max-width: 33.33%;
+    margin-right: 20px;
+
+}
+.imagen img {
+    width: 100%;
+    max-height: 200px; 
+    object-fit: cover;
+}
+
+.texto {
+    flex: 2;
+}
+.texto p{
+    font-size: small;
+}
+.menuDesktop{
+    padding-bottom: 5%;
+}
+span{
+    text-decoration: none;
+    color: #48231E;
+    font-weight: bold;
+}
+
+#menuLogo{
+    padding-left: 20%;
+
+}
+
+#navbarNav{
+    padding-right: 20%;
+}
+
+
+#menu .nav-link h2 {
+    padding-left: 10px; 
+    width: 200px; 
+    text-decoration: none;
+    color: #48231E;
+    font-weight: bold;
+    display: inline;
+}
+#logo{
+    padding-top: 10px;
+}
+
+.logos{
+    padding-left: 20px;
+}
+.nav-item a{
+    font-size: xx-large;
+}
+
+
+footer{
+    background-color: #48231E;
+    text-align: center;
+    color:white;
+}
+footer div p{margin: 0;}

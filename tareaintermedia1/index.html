@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <title>Ruralia</title>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="estilos.css">
+    <script src="code.js"></script>
+
+</head>
+<body>
+<head>
+        <section class="menuMovil d-md-none">
+        
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                       
+                        <button class="btn ms-auto d-flex justify-content-end float-end pt-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" role="button">
+                            <svg class="" style=" width:15%;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        
+ 
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" data-bs-keyboard="false" data-bs-backdrop="false">
+                
+                <div class="offcanvas-body px-0">
+                    <ul class="nav flex-column" id="menu">
+                        <div class="offcanvas-header d-flex justify-content-end">
+                            <button type="button" class="btn" data-bs-dismiss="offcanvas" aria-label="Close"  id="boton">
+                                <img src="img/cerrar.png" alt="Icono cerrar menu" >
+                            </button>
+                        </div>
+                        <li>
+                            <a href="#" class="nav-link">
+                                <img src="img/home.png" alt="icono de enlace a Inicio" ><h2 class="ms-1">Inicio</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#submenu1" class="nav-link">
+                                <img src="img/search.png" alt="icono de enlace a Inicio"><h2 class="ms-1">Buscar</h2> 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">
+                                <img src="img/experiencas.png" alt="icono de enlace a Inicio"><h2 class="ms-1">Experiencias</h2>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="#" class="nav-link">
+                                <img src="img/live_help.png" alt="icono de enlace a Inicio"><h2 class="ms-1 ">Ayuda</h2>
+                            </a>
+                        </li>
+                        <div class="d-flex logos">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <figure><img src="img/facebook.png" alt="logo de facebook"></figure>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#prueba" class="nav-link" accesskey="u">
+                                    <figure><img src="img/instagram.png" alt="logo de instagram"></figure>
+                                </a>
+                            </li>
+                        </div>
+                        
+                    </ul>
+                </div>
+            </div>
+
+    </section>
+
+    <section class="menuDesktop d-none d-md-block   ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"
+        id="menuLogo" >
+            <a class="navbar-brand" href="#">
+              <img src="img/MArca.svg" alt="logo de la empresa Ruralia"  style="height:100px;"alt="Logo" height="30">
+            </a>
+          
+         
+          
+            <div class="collapse navbar-collapse justify-content-end " id="navbarNav" >
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Buscar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ayuda</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+</head>
+<main>
+    <figure id="logo" class="text-center d-block d-md-none"><img src="img/MArca.svg" alt="Logo de Ruralia"></figure>
+
+    <div class="container text-center">
+        <div id="alojamientosContainer"></div>
+    </div>
+</main>
+<footer class="mt-auto py-2">
+    <div class="container">
+        <p>Copyright  &#169; 2024 Ruralia</p>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+    <script src="botones.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    
+</body>
+</html>

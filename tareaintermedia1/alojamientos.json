@@ -1,0 +1,46 @@
+{
+  "alojamientos": [
+    {
+      "nombre": "Finca El Encanto",
+      "descripcion": "Disfruta de la tranquilidad en nuestra finca rodeada de naturaleza.",
+      "localidad": "Carmona",
+      "provincia": "Sevilla",
+      "imagen": "img/finca-el-encanto.jpg"
+    },
+    {
+      "nombre": "Casa Rural La Serenidad",
+      "descripcion": "Una acogedora casa para relajarte y disfrutar del entorno rural.",
+      "localidad": "Vejer de la Frontera",
+      "provincia": "Cádiz",
+      "imagen": "img/finca-el-encanto.jpg"
+    },
+    {
+      "nombre": "Cortijo Los Olivos",
+      "descripcion": "Vive la experiencia rural en nuestro cortijo con olivares.",
+      "localidad": "Almonte",
+      "provincia": "Huelva",
+      "imagen": "img/finca-el-encanto.jpg"
+    },
+    {
+      "nombre": "Hacienda La Tranquilidad",
+      "descripcion": "Descansa en nuestra hacienda llena de encanto y comodidades.",
+      "localidad": "Écija",
+      "provincia": "Sevilla",
+      "imagen": "img/finca-el-encanto.jpg"
+    },
+    {
+      "nombre": "Casa Rural El Pinar",
+      "descripcion": "Alojamiento perfecto para los amantes de la naturaleza y la aventura.",
+      "localidad": "Ubrique",
+      "provincia": "Cádiz",
+      "imagen": "img/finca-el-encanto.jpg"
+    },
+    {
+      "nombre": "Finca La Esperanza",
+      "descripcion": "Vistas panorámicas y tranquilidad en nuestra finca en plena Sierra de Aracena.",
+      "localidad": "Aracena",
+      "provincia": "Huelva",
+      "imagen": "img/finca-el-encanto.jpg"
+    }
+  ]
+}
